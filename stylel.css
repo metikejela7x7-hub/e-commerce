@@ -95,7 +95,7 @@ li {
   display: none;
 }
 
-.menu--backdrop {
+.menu__backdrop {
   position: absolute;
   background-color: #242424;
   top: 0;
@@ -242,6 +242,11 @@ HIGHLIGHTS
   width: 100vw;
 }
 
+#highlights .container {
+  position: relative;
+  z-index: 2;
+}
+
 #highlights:after,
 #highlights:before {
   background: url("assets/wave.svg");
@@ -296,7 +301,7 @@ HIGHLIGHTS
   margin-bottom: 24px;
 }
 
-.hightlight__subtitle {
+.highlight__subtitle {
   font-size: 20px;
   margin-bottom: 16px;
   text-align: center;
